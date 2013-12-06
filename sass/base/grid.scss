@@ -1,5 +1,18 @@
 .container {
 	margin: 0 auto;
-	width: 1000px;
+	max-width: 1000px;
 	padding: 0 20px;
+}
+
+
+// Grid
+// ---------------------------------------
+
+$grid-columns: 12;
+
+@for $i from 1 through ($grid-columns) {
+  .span#{$i} {
+    @extend %clearfix;
+    @include span-columns($i of $grid-columns);
+  }
 }

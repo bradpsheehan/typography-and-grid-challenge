@@ -1,0 +1,36 @@
+// Colors
+// ---------------------------------------
+
+$white: #FFF;
+$black: #000;
+
+$lightest-gray: #eee;
+$lighter-gray: #ccc;
+$light-gray: #aaa;
+$gray: #666;
+$dark-gray: #444;
+
+$blue: #178BE9;
+$dark-blue: darken($blue, 10%);
+
+$green: #8CC63F;
+$dark-green: darken(#8CC63F, 10%);
+
+$teal: #23DAA2;
+$dark-teal: #18A47B;
+$darkest-teal: #03303F;
+
+$orange: #FD8023;
+
+$red: #fa4b2a;
+
+$color-primary: $dark-gray;
+$color-secondary: $teal;
+$color-tertiary: $blue;
+
+
+// Fonts
+// ---------------------------------------
+
+$font-stack: 'Helvetica Neue', 'Arial', sans-serif;
+$font-primary: 'Open Sans', $font-stack;

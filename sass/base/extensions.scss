@@ -1,0 +1,14 @@
+// Fonts
+// ---------------------------------------
+
+%font-primary {
+    font-family: $font-primary;
+}
+
+
+// Layout
+// ---------------------------------------
+
+%clearfix {
+    @include clearfix;
+}

@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6 {
+    @extend %v-rhythm;
+}
+
+h1 {
+    @include font-size(42);
+}
+
+h2 {
+    @include font-size(32);
+}
+
+h3 {
+    @include font-size(24);
+}
+
+h4 {
+    @include font-size(20);
+}
+
+h5 {
+    @include font-size(18);
+    font-weight: 600;
+}
+
+h6 {
+    @include font-size(16);
+}
+
+a {
+    color: $color-secondary;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-tertiary;
+    }
+}
+
+em {
+    font-style: italic;
+}
+
+p {
+    @include font-size(16);
+    line-height: 1.4;
+    text-rendering: optimizelegibility;
+}
+
+small {
+    @include font-size(12);
+    line-height: 1;
+}
+
+strong {
+    font-weight: 600;
+}
