@@ -41,6 +41,9 @@ table {
 ::-moz-focus-inner {
   border: 0; }
 
+body {
+  padding: 20px 0; }
+
 a, p, .pull-quote {
   font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif; }
 
@@ -182,7 +185,7 @@ h6 {
   font-size: 1rem; }
 
 a {
-  color: black;
+  color: #fa4b2a;
   text-decoration: none;
   font-weight: 600; }
   a:hover {
@@ -210,22 +213,53 @@ small {
 strong {
   font-weight: 600; }
 
+@media screen and (max-width: 600px) {
+  .article-title {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.3em; }
+
+  .subtitle {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.2em; }
+
+  p {
+    line-height: 1.7em; } }
 address {
   display: inline; }
+
+aside:nth-of-type(2n) {
+  float: right;
+  margin: 0 0 0 10px; }
+
+img {
+  max-width: 100%; }
 
 .pull-quote {
   color: #fa4b2a;
   font-size: 24px;
   font-size: 1.5rem;
   font-style: italic;
-  line-height: 1.5em;
-  /*@include shift(1 of 16);*/ }
+  line-height: 1.5em; }
 
 .subtitle {
   color: #aaaaaa;
   font-style: italic;
-  margin-bottom: 25px; }
+  padding: 20px 0; }
 
-img {
-  margin: 20px 0;
-  margin-left: 6.35987%; }
+.hero-img {
+  padding: 25px 50px; }
+
+.secondary-images {
+  padding: 0px 120px 25px 120px; }
+
+@media screen and (max-width: 600px) {
+  .pull-quote {
+    width: 100%; }
+
+  .hero-img {
+    padding: 12px 20px; }
+
+  .secondary-images {
+    padding: 0 20px 12px 20px; } }
