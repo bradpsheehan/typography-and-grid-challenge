@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
     @extend %v-rhythm;
+    @extend %font-secondary;
 }
 
 h1 {
@@ -28,11 +29,12 @@ h6 {
 }
 
 a {
-    color: $color-secondary;
+    color: $black;
     text-decoration: none;
+    @extend %semi-bold-sans-serif;
 
     &:hover {
-        color: $color-tertiary;
+        color: $light-gray;
     }
 }
 
@@ -42,8 +44,14 @@ em {
 
 p {
     @include font-size(16);
-    line-height: 1.4;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+      -webkit-hyphens: auto;
+         -moz-hyphens: auto;
+          -ms-hyphens: auto;
+              hyphens: auto;
     text-rendering: optimizelegibility;
+    @extend %font-primary;
 }
 
 small {

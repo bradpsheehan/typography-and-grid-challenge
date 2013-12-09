@@ -10,27 +10,26 @@ $light-gray: #aaa;
 $gray: #666;
 $dark-gray: #444;
 
-$blue: #178BE9;
-$dark-blue: darken($blue, 10%);
-
-$green: #8CC63F;
-$dark-green: darken(#8CC63F, 10%);
-
-$teal: #23DAA2;
-$dark-teal: #18A47B;
-$darkest-teal: #03303F;
-
-$orange: #FD8023;
-
 $red: #fa4b2a;
 
 $color-primary: $dark-gray;
-$color-secondary: $teal;
-$color-tertiary: $blue;
 
 
 // Fonts
 // ---------------------------------------
 
-$font-stack: 'Helvetica Neue', 'Arial', sans-serif;
-$font-primary: 'Open Sans', $font-stack;
+$sans-serif-font-stack: 'Helvetica Neue', 'Arial', sans-serif;
+$font-primary: 'Open Sans', $sans-serif-font-stack;
+
+$semi-bold-sans-serif: 'Open Sans', 'Semi-Bold', $sans-serif-font-stack;
+
+$serif-font-stack: 'Times New Roman', Georgia, serif;
+$font-secondary: 'Roboto Slab', $serif-font-stack;
+
+
+
+// Misc
+// ---------------------------------------
+
+$page-v-rhythm: 20px;
+

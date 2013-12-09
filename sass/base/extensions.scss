@@ -2,13 +2,44 @@
 // ---------------------------------------
 
 %font-primary {
-    font-family: $font-primary;
+  font-family: $font-primary;
+}
+
+%font-secondary {
+	font-family: $font-secondary
+}
+
+%semi-bold-sans-serif {
+	font-family: $semi-bold-sans-serif;
 }
 
 
 // Layout
 // ---------------------------------------
 
+
+%hidden {
+    @extend .hidden;
+}
+
+%not-hidden {
+    top: auto;
+    left: auto;
+    position: static;
+}
+
+%inline-block {
+    @include inline-block;
+}
+
 %clearfix {
     @include clearfix;
+}
+
+%v-rhythm {
+    margin-top: $page-v-rhythm;
+
+    &:first-child {
+        margin-top: 0;
+    }
 }
