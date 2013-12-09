@@ -45,7 +45,7 @@ body {
   padding: 20px 0; }
 
 a, p, .pull-quote {
-  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", "Times New Roman", Georgia, serif; }
@@ -202,8 +202,7 @@ p {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
-  text-rendering: optimizelegibility; }
+  hyphens: auto; }
 
 small {
   font-size: 12px;
