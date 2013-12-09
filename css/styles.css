@@ -41,14 +41,11 @@ table {
 ::-moz-focus-inner {
   border: 0; }
 
-p {
+a, p, .pull-quote {
   font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", "Times New Roman", Georgia, serif; }
-
-a, .pull-quote {
-  font-family: "Open Sans", "Semi-Bold", "Helvetica Neue", "Arial", sans-serif; }
 
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
   *zoom: 1; }
@@ -58,14 +55,9 @@ a, .pull-quote {
   .span1:after, .span2:after, .span3:after, .span4:after, .span5:after, .span6:after, .span7:after, .span8:after, .span9:after, .span10:after, .span11:after, .span12:after {
     clear: both; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 20px; }
-  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
-    margin-top: 0; }
-
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 800px;
   padding: 0 20px; }
 
 .span1 {
@@ -191,7 +183,8 @@ h6 {
 
 a {
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 600; }
   a:hover {
     color: #aaaaaa; }
 
@@ -235,4 +228,4 @@ address {
 
 img {
   margin: 20px 0;
-  margin-left: 12.71973%; }
+  margin-left: 6.35987%; }

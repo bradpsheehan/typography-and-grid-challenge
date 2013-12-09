@@ -31,7 +31,8 @@ h6 {
 a {
     color: $black;
     text-decoration: none;
-    @extend %semi-bold-sans-serif;
+    @extend %font-primary;
+    font-weight: 600;
 
     &:hover {
         color: $light-gray;

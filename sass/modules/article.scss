@@ -5,7 +5,7 @@ address {
 .pull-quote {
 	color: $red;
 	@include font-size(24);
-	@extend %semi-bold-sans-serif;
+	@extend %font-primary;
 	font-style: italic;
 	line-height: 1.5em;
 	/*@include shift(1 of 16);*/
@@ -19,5 +19,5 @@ address {
 
 img {
 	margin: 20px 0;
-	@include shift(2 of 16);
+	@include shift(1 of 16);
 }
